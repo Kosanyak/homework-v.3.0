@@ -1,105 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viking</title>
-</head>
-<body style="width: 820px; margin: 0; padding: 0px;">
+  </head>
+  <body style="width: 820px; margin: 0; padding: 0px;">
     <header style="width: 100%; text-align: center;">
-        <hr style="height: 3px; background-color: black;">
-           <a href="./index.html"><img src="./img/завантаження.png" alt="logo" id="top"></a>
-        <hr style="height: 3px; background-color: black;">         
+      <hr style="height: 3px; background-color: black;" />
+      <a href="./index.html"
+        ><img src="./img/завантаження.png" alt="logo" id="top"
+      /></a>
+      <hr style="height: 3px; background-color: black;" />
     </header>
-    <img src="./img/1234.jpg" alt="22">
-    <form style="margin-bottom: 35px;" action="https://formspree.io/mgenppjp" method="POST">
-        <fieldset>
-           <legend style="font-size: 30px; font-weight: bolder;">Підберемо програму саме для вас</legend>
-            <p>
-                <label for="name" style="font-size: 20px; ">Iмя</label> 
-                <input type="text" id="name" style="margin-left: 54px;" name="Name" required/>
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Прізвище</label> 
-                <input type="text" id="name" name="Last name" required/>
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Вага</label>
-                <input type="text" id="name" style="margin-left: 44px;" name="Weight" required />
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Ріст</label> 
-                <input type="text" id="name" style="margin-left: 49px;" name="Growth" required />
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Вік</label> 
-                <input type="date" min="01-01-1970" max="2020-01-01" style="margin-left: 55px;"  name="Age">
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Стать</label> 
-                <br/>
-                <label>
-                    <span>Жіноча</span>
-                <input type="checkbox" id="sex" style="margin-left: 15px;" name="Sex"/> 
-                </label>
-                <br/>
-                <label>
-                    <span>Чоловіча</span>
-                <input type="checkbox" id="sex" name="Sex"/>
-                </label>
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Якого складу у вас тіло на вашу думку</label> <br/>
-                <select name="body type" style="background: #403c0f; color: gainsboro; width: 180px; height: 40px; font-size: 15px;" required>
-                    <option selected>Вибрати</option>
-                    <option>Ектоморф</option>
-                    <option>Мезоморф</option>
-                    <option>Ендоморф</option>
-                </select>
-              </p>
-        </fieldset>
-        <input type="submit" value="Надіслати заявку" style="background: #403c0f; color: gainsboro; width: 180px; height: 40px; font-size: 15px; margin-top: 5px; margin-left: 600px;"/>
+    <img src="./img/1234.jpg" alt="22" />
+    <form
+      style="margin-bottom: 35px;"
+      action="https://formspree.io/mgenppjp"
+      method="POST"
+    >
+      <fieldset>
+        <legend style="font-size: 30px; font-weight: bolder;">
+          Підберемо програму саме для вас
+        </legend>
+        <p>
+          <label for="name" style="font-size: 20px;">Iмя</label>
+          <input
+            type="text"
+            id="name"
+            style="margin-left: 54px;"
+            name="Name"
+            required
+          />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Прізвище</label>
+          <input type="text" id="name" name="Last name" required />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Вага</label>
+          <input
+            type="text"
+            id="name"
+            style="margin-left: 44px;"
+            name="Weight"
+            required
+          />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Ріст</label>
+          <input
+            type="text"
+            id="name"
+            style="margin-left: 49px;"
+            name="Growth"
+            required
+          />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Вік</label>
+          <input
+            type="date"
+            min="01-01-1970"
+            max="2020-01-01"
+            style="margin-left: 55px;"
+            name="Age"
+          />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Стать</label>
+          <br />
+          <label>
+            <span>Жіноча</span>
+            <input
+              type="checkbox"
+              id="sex"
+              style="margin-left: 15px;"
+              name="Sex"
+            />
+          </label>
+          <br />
+          <label>
+            <span>Чоловіча</span>
+            <input type="checkbox" id="sex" name="Sex" />
+          </label>
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;"
+            >Якого складу у вас тіло на вашу думку</label
+          >
+          <br />
+          <select
+            name="body type"
+            style="
+              background: #403c0f;
+              color: gainsboro;
+              width: 180px;
+              height: 40px;
+              font-size: 15px;
+            "
+            required
+          >
+            <option selected>Вибрати</option>
+            <option>Ектоморф</option>
+            <option>Мезоморф</option>
+            <option>Ендоморф</option>
+          </select>
+        </p>
+      </fieldset>
+      <input
+        type="submit"
+        value="Надіслати заявку"
+        style="
+          background: #403c0f;
+          color: gainsboro;
+          width: 180px;
+          height: 40px;
+          font-size: 15px;
+          margin-top: 5px;
+          margin-left: 600px;
+        "
+      />
     </form>
-    <img src="./img/232.jpg" alt="22" width="780" style="padding-left: 20px;">
+    <img src="./img/232.jpg" alt="22" width="780" style="padding-left: 20px;" />
     <form action="https://formspree.io/mgenppjp" method="POST">
-        <fieldset>
-            <legend style="font-size: 30px; font-weight: bolder;">Купити абонемент</legend>
-            <p>
-                <label for="name" style="font-size: 20px; ">Iмя</label> 
-                <input type="text" id="name" style="margin-left: 54px;" name="Name" required/>
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Прізвище</label> 
-                <input type="text" id="name" name="Last name" required/>
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Вік</label> 
-                <input type="date" min="01-01-1970" max="2020-01-01" style="margin-left: 55px;" name="Age">
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Стать</label> 
-                <br/>
-                <label>
-                    <span>Жіноча</span>
-                <input type="checkbox" id="sex" style="margin-left: 15px;"/> 
-                </label>
-                <br/>
-                <label>
-                    <span>Чоловіча</span>
-                <input type="checkbox" id="sex"/>
-                </label>
-            </p>
-            <p>
-                <label for="name" style="font-size: 20px;">Виберіть </label> <br/>
-                <select name="body type" style="background: #403c0f; color: gainsboro; width: 180px; height: 40px; font-size: 15px;" required>
-                    <option selected>Вибрати</option>
-                    <option>Місяць</option>
-                    <option>½року</option>
-                    <option>Рік</option>
-                </select>
-              </p>
-        </fieldset>
-           <input type="submit" value="Надіслати заявку" style="background: #403c0f; color: gainsboro; width: 180px; height: 40px; font-size: 15px; margin-top: 5px; margin-left: 600px;"/>
+      <fieldset>
+        <legend style="font-size: 30px; font-weight: bolder;">
+          Купити абонемент
+        </legend>
+        <p>
+          <label for="name" style="font-size: 20px;">Iмя</label>
+          <input
+            type="text"
+            id="name"
+            style="margin-left: 54px;"
+            name="Name"
+            required
+          />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Прізвище</label>
+          <input type="text" id="name" name="Last name" required />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Вік</label>
+          <input
+            type="date"
+            min="01-01-1970"
+            max="2020-01-01"
+            style="margin-left: 55px;"
+            name="Age"
+          />
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Стать</label>
+          <br />
+          <label>
+            <span>Жіноча</span>
+            <input type="checkbox" id="sex" style="margin-left: 15px;" />
+          </label>
+          <br />
+          <label>
+            <span>Чоловіча</span>
+            <input type="checkbox" id="sex" />
+          </label>
+        </p>
+        <p>
+          <label for="name" style="font-size: 20px;">Виберіть </label> <br />
+          <select
+            name="body type"
+            style="
+              background: #403c0f;
+              color: gainsboro;
+              width: 180px;
+              height: 40px;
+              font-size: 15px;
+            "
+            required
+          >
+            <option selected>Вибрати</option>
+            <option>Місяць</option>
+            <option>½року</option>
+            <option>Рік</option>
+          </select>
+        </p>
+      </fieldset>
+      <input
+        type="submit"
+        value="Надіслати заявку"
+        style="
+          background: #403c0f;
+          color: rgba(13, 253, 21, 0.51);
+          width: 180px;
+          height: 40px;
+          font-size: 15px;
+          margin-top: 5px;
+          margin-left: 600px;
+        "
+      />
     </form>
-</body>
+  </body>
 </html>
